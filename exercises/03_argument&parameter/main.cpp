@@ -13,7 +13,7 @@ int main(int argc, char **argv) {
     func(arg);
     ASSERT(arg == 99, "arg should be ?");
     std::cout << "after func call: " << arg << std::endl;
-    return 0 ;
+    return 0;
 }
 
 // TODO: 为下列 ASSERT 填写正确的值
