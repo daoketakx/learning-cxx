@@ -8,7 +8,7 @@ constexpr unsigned long long fibonacci(int i) {
         case 1:
             return 1;
         default:
-            return area[i] ? area[i] : area[i] = fibonacci(i - 1) + fibonacci(i - 2);
+            return area[i]  ? area[i] : area[i] = fibonacci(i - 1) + fibonacci(i - 2);
     }
 }
 
